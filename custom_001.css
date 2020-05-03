@@ -1,0 +1,17 @@
+/* Code tidied up by ScrapBook */
+@import url("css.css");
+@import url("css.css");
+@import url("css.css");
+body { font-family: "Open Sans",Verdana,Geneva,sans-serif; font-size: 80%; }
+h1, h2, h3, h4, h5, h6, #jsn-gotoplink, .page-header, .subheading-category, .componentheading, .contentheading { font-family: "Open Sans",Verdana,Geneva,sans-serif; }
+body #jsn-menu ul.menu-mainmenu a, body #jsn-menu ul.menu-mainmenu li a span { font-family: "Open Sans",Verdana,Geneva,sans-serif; }
+.mbp_logo a { text-indent: 0px !important; width: auto !important; padding: 0px 10px !important; }
+@media screen and (max-width: 992px) {
+  #jsn-social-icons ul { margin-left: auto !important; }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  #jsn-social-icons ul { margin-left: 600px !important; }
+}
+@media screen and (min-width: 1200px) {
+  #jsn-social-icons ul { margin-left: 900px !important; }
+}

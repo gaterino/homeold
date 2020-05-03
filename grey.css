@@ -1,0 +1,30 @@
+/* Code tidied up by ScrapBook */
+a { color: rgb(0, 0, 0); }
+.link-action { border-bottom: 1px solid rgb(0, 0, 0); }
+.link-action:hover { background-color: rgb(0, 0, 0); }
+table.style-colorheader thead th { background-color: rgb(153, 153, 153); border-right: 1px groove rgb(185, 185, 185); }
+table.style-colorstripes td, table.style-colorstripes th { border-bottom: 1px solid rgb(187, 187, 187); border-right: 1px groove rgb(187, 187, 187); }
+table.style-colorstripes thead th { background-color: rgb(115, 115, 115); }
+table.style-colorstripes thead th.highlight { background-color: rgb(139, 139, 139); }
+table.style-colorstripes tbody tr { background-color: rgb(163, 163, 163); }
+table.style-colorstripes tbody .highlight { background-color: rgb(240, 240, 240); }
+table.style-colorstripes tbody tr.odd { background-color: rgb(139, 139, 139); }
+table.style-colorstripes tbody tr.odd .highlight { background-color: rgb(219, 219, 219); }
+table.style-colorstripes tbody tr:hover th, table.style-colorstripes tbody tr:hover td { background-color: rgb(128, 128, 128); }
+table.style-colorstripes tbody tr:hover .highlight { background-color: rgb(208, 208, 208); }
+table.style-colorstripes tbody td, table.style-colorstripes tbody th { border-left: medium none; border-right: 1px solid rgb(187, 187, 187); }
+table.style-colorstripes tfoot th, table.style-colorstripes tfoot td { background-color: rgb(115, 115, 115); }
+.sectiontableheader { background-color: rgb(153, 153, 153); }
+table.style-greystripes thead th.highlight { background-color: rgb(139, 139, 139); }
+div.jsn-modulecontainer ul.menu-mainmenu ul li:hover > a, div.jsn-modulecontainer ul.menu-mainmenu ul li:active > a { color: rgb(98, 121, 137); }
+div.jsn-modulecontainer ul.menu-mainmenu li.current > a, div.jsn-modulecontainer ul.menu-mainmenu > li.active > a { color: rgb(98, 121, 137); }
+div.richbox-2 ul.menu-treemenu li a:hover, div.richbox-2 ul.menu-treemenu li a.current { background-color: rgb(33, 66, 99); }
+div.lightbox-2 ul.menu-treemenu li a:hover, div.lightbox-2 ul.menu-treemenu li a.current { background-color: rgb(207, 240, 250); }
+div.richbox-2 ul.menu-sidemenu > li:hover > a { background-color: rgb(33, 66, 99); }
+div.lightbox-2 ul.menu-sidemenu > li:hover > a { background-color: rgb(207, 240, 250); }
+div.richbox-2 ul.menu-sidemenu > li.active > a { background-color: rgb(33, 66, 99); }
+div.lightbox-2 ul.menu-sidemenu > li.active > a { background-color: rgb(153, 153, 153); }
+div.richbox-2 div.jsn-modulecontainer_inner { background-color: rgb(43, 87, 131); }
+div.lightbox-2 div.jsn-modulecontainer_inner { background-color: rgb(245, 252, 254); }
+#jsn-pos-top div.search input#mod_search_searchword { border: 1px solid rgb(115, 115, 115); }
+ul.jsn-pagination li.navigation-page span { background-color: rgb(139, 139, 139); }

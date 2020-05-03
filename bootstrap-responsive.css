@@ -1,0 +1,271 @@
+/* Code tidied up by ScrapBook */
+.jevbootstrap .clearfix {  }
+.jevbootstrap .clearfix::before, .jevbootstrap .clearfix::after { display: table; line-height: 0; content: ""; }
+.jevbootstrap .clearfix::after { clear: both; }
+.jevbootstrap .hide-text { font: 0px/0 a; color: transparent; text-shadow: none; background-color: transparent; border: 0px none; }
+.jevbootstrap .input-block-level { display: block; width: 100%; min-height: 30px; box-sizing: border-box; }
+.jevbootstrap .hidden { display: none; visibility: hidden; }
+.jevbootstrap .visible-phone { display: none !important; }
+.jevbootstrap .visible-tablet { display: none !important; }
+.jevbootstrap .hidden-desktop { display: none !important; }
+.jevbootstrap .visible-desktop { display: inherit !important; }
+@media (min-width: 768px) and (max-width: 979px) {
+  .jevbootstrap .hidden-desktop { display: inherit !important; }
+  .jevbootstrap .visible-desktop { display: none !important; }
+  .jevbootstrap .visible-tablet { display: inherit !important; }
+  .jevbootstrap .hidden-tablet { display: none !important; }
+}
+@media (max-width: 767px) {
+  .jevbootstrap .hidden-desktop { display: inherit !important; }
+  .jevbootstrap .visible-desktop { display: none !important; }
+  .jevbootstrap .visible-phone { display: inherit !important; }
+  .jevbootstrap .hidden-phone { display: none !important; }
+}
+.jevbootstrap .visible-print { display: none !important; }
+@media print {
+  .jevbootstrap .visible-print { display: inherit !important; }
+  .jevbootstrap .hidden-print { display: none !important; }
+}
+@media (min-width: 1200px) {
+  .jevbootstrap .row { margin-left: -30px; }
+  .jevbootstrap .row::before, .jevbootstrap .row::after { display: table; line-height: 0; content: ""; }
+  .jevbootstrap .row::after { clear: both; }
+  .jevbootstrap [class*="span"] { float: left; min-height: 1px; margin-left: 30px; }
+  .jevbootstrap .container, .jevbootstrap .navbar-static-top .container, .jevbootstrap .navbar-fixed-top .container, .jevbootstrap .navbar-fixed-bottom .container { width: 1170px; }
+  .jevbootstrap .span12 { width: 1170px; }
+  .jevbootstrap .span11 { width: 1070px; }
+  .jevbootstrap .span10 { width: 970px; }
+  .jevbootstrap .span9 { width: 870px; }
+  .jevbootstrap .span8 { width: 770px; }
+  .jevbootstrap .span7 { width: 670px; }
+  .jevbootstrap .span6 { width: 570px; }
+  .jevbootstrap .span5 { width: 470px; }
+  .jevbootstrap .span4 { width: 370px; }
+  .jevbootstrap .span3 { width: 270px; }
+  .jevbootstrap .span2 { width: 170px; }
+  .jevbootstrap .span1 { width: 70px; }
+  .jevbootstrap .offset12 { margin-left: 1230px; }
+  .jevbootstrap .offset11 { margin-left: 1130px; }
+  .jevbootstrap .offset10 { margin-left: 1030px; }
+  .jevbootstrap .offset9 { margin-left: 930px; }
+  .jevbootstrap .offset8 { margin-left: 830px; }
+  .jevbootstrap .offset7 { margin-left: 730px; }
+  .jevbootstrap .offset6 { margin-left: 630px; }
+  .jevbootstrap .offset5 { margin-left: 530px; }
+  .jevbootstrap .offset4 { margin-left: 430px; }
+  .jevbootstrap .offset3 { margin-left: 330px; }
+  .jevbootstrap .offset2 { margin-left: 230px; }
+  .jevbootstrap .offset1 { margin-left: 130px; }
+  .jevbootstrap .row-fluid { width: 100%; }
+  .jevbootstrap .row-fluid::before, .jevbootstrap .row-fluid::after { display: table; line-height: 0; content: ""; }
+  .jevbootstrap .row-fluid::after { clear: both; }
+  .jevbootstrap .row-fluid [class*="span"] { display: block; float: left; width: 100%; min-height: 30px; margin-left: 2.5641%; box-sizing: border-box; }
+  .jevbootstrap .row-fluid [class*="span"]:first-child { margin-left: 0px; }
+  .jevbootstrap .row-fluid .controls-row [class*="span"] + [class*="span"] { margin-left: 2.5641%; }
+  .jevbootstrap .row-fluid .span12 { width: 100%; }
+  .jevbootstrap .row-fluid .span11 { width: 91.453%; }
+  .jevbootstrap .row-fluid .span10 { width: 82.906%; }
+  .jevbootstrap .row-fluid .span9 { width: 74.359%; }
+  .jevbootstrap .row-fluid .span8 { width: 65.812%; }
+  .jevbootstrap .row-fluid .span7 { width: 57.265%; }
+  .jevbootstrap .row-fluid .span6 { width: 48.7179%; }
+  .jevbootstrap .row-fluid .span5 { width: 40.1709%; }
+  .jevbootstrap .row-fluid .span4 { width: 31.6239%; }
+  .jevbootstrap .row-fluid .span3 { width: 23.0769%; }
+  .jevbootstrap .row-fluid .span2 { width: 14.5299%; }
+  .jevbootstrap .row-fluid .span1 { width: 5.98291%; }
+  .jevbootstrap .row-fluid .offset12 { margin-left: 105.128%; }
+  .jevbootstrap .row-fluid .offset12:first-child { margin-left: 102.564%; }
+  .jevbootstrap .row-fluid .offset11 { margin-left: 96.5812%; }
+  .jevbootstrap .row-fluid .offset11:first-child { margin-left: 94.0171%; }
+  .jevbootstrap .row-fluid .offset10 { margin-left: 88.0342%; }
+  .jevbootstrap .row-fluid .offset10:first-child { margin-left: 85.4701%; }
+  .jevbootstrap .row-fluid .offset9 { margin-left: 79.4872%; }
+  .jevbootstrap .row-fluid .offset9:first-child { margin-left: 76.9231%; }
+  .jevbootstrap .row-fluid .offset8 { margin-left: 70.9402%; }
+  .jevbootstrap .row-fluid .offset8:first-child { margin-left: 68.3761%; }
+  .jevbootstrap .row-fluid .offset7 { margin-left: 62.3932%; }
+  .jevbootstrap .row-fluid .offset7:first-child { margin-left: 59.8291%; }
+  .jevbootstrap .row-fluid .offset6 { margin-left: 53.8462%; }
+  .jevbootstrap .row-fluid .offset6:first-child { margin-left: 51.2821%; }
+  .jevbootstrap .row-fluid .offset5 { margin-left: 45.2991%; }
+  .jevbootstrap .row-fluid .offset5:first-child { margin-left: 42.735%; }
+  .jevbootstrap .row-fluid .offset4 { margin-left: 36.7521%; }
+  .jevbootstrap .row-fluid .offset4:first-child { margin-left: 34.188%; }
+  .jevbootstrap .row-fluid .offset3 { margin-left: 28.2051%; }
+  .jevbootstrap .row-fluid .offset3:first-child { margin-left: 25.641%; }
+  .jevbootstrap .row-fluid .offset2 { margin-left: 19.6581%; }
+  .jevbootstrap .row-fluid .offset2:first-child { margin-left: 17.094%; }
+  .jevbootstrap .row-fluid .offset1 { margin-left: 11.1111%; }
+  .jevbootstrap .row-fluid .offset1:first-child { margin-left: 8.54701%; }
+  .jevbootstrap input, .jevbootstrap textarea, .jevbootstrap .uneditable-input { margin-left: 0px; }
+  .jevbootstrap .controls-row [class*="span"] + [class*="span"] { margin-left: 30px; }
+  .jevbootstrap input.span12, .jevbootstrap textarea.span12, .jevbootstrap .uneditable-input.span12 { width: 1156px; }
+  .jevbootstrap input.span11, .jevbootstrap textarea.span11, .jevbootstrap .uneditable-input.span11 { width: 1056px; }
+  .jevbootstrap input.span10, .jevbootstrap textarea.span10, .jevbootstrap .uneditable-input.span10 { width: 956px; }
+  .jevbootstrap input.span9, .jevbootstrap textarea.span9, .jevbootstrap .uneditable-input.span9 { width: 856px; }
+  .jevbootstrap input.span8, .jevbootstrap textarea.span8, .jevbootstrap .uneditable-input.span8 { width: 756px; }
+  .jevbootstrap input.span7, .jevbootstrap textarea.span7, .jevbootstrap .uneditable-input.span7 { width: 656px; }
+  .jevbootstrap input.span6, .jevbootstrap textarea.span6, .jevbootstrap .uneditable-input.span6 { width: 556px; }
+  .jevbootstrap input.span5, .jevbootstrap textarea.span5, .jevbootstrap .uneditable-input.span5 { width: 456px; }
+  .jevbootstrap input.span4, .jevbootstrap textarea.span4, .jevbootstrap .uneditable-input.span4 { width: 356px; }
+  .jevbootstrap input.span3, .jevbootstrap textarea.span3, .jevbootstrap .uneditable-input.span3 { width: 256px; }
+  .jevbootstrap input.span2, .jevbootstrap textarea.span2, .jevbootstrap .uneditable-input.span2 { width: 156px; }
+  .jevbootstrap input.span1, .jevbootstrap textarea.span1, .jevbootstrap .uneditable-input.span1 { width: 56px; }
+  .jevbootstrap .thumbnails { margin-left: -30px; }
+  .jevbootstrap .thumbnails > li { margin-left: 30px; }
+  .jevbootstrap .row-fluid .thumbnails { margin-left: 0px; }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .jevbootstrap .row { margin-left: -20px; }
+  .jevbootstrap .row::before, .jevbootstrap .row::after { display: table; line-height: 0; content: ""; }
+  .jevbootstrap .row::after { clear: both; }
+  .jevbootstrap [class*="span"] { float: left; min-height: 1px; margin-left: 20px; }
+  .jevbootstrap .container, .jevbootstrap .navbar-static-top .container, .jevbootstrap .navbar-fixed-top .container, .jevbootstrap .navbar-fixed-bottom .container { width: 724px; }
+  .jevbootstrap .span12 { width: 724px; }
+  .jevbootstrap .span11 { width: 662px; }
+  .jevbootstrap .span10 { width: 600px; }
+  .jevbootstrap .span9 { width: 538px; }
+  .jevbootstrap .span8 { width: 476px; }
+  .jevbootstrap .span7 { width: 414px; }
+  .jevbootstrap .span6 { width: 352px; }
+  .jevbootstrap .span5 { width: 290px; }
+  .jevbootstrap .span4 { width: 228px; }
+  .jevbootstrap .span3 { width: 166px; }
+  .jevbootstrap .span2 { width: 104px; }
+  .jevbootstrap .span1 { width: 42px; }
+  .jevbootstrap .offset12 { margin-left: 764px; }
+  .jevbootstrap .offset11 { margin-left: 702px; }
+  .jevbootstrap .offset10 { margin-left: 640px; }
+  .jevbootstrap .offset9 { margin-left: 578px; }
+  .jevbootstrap .offset8 { margin-left: 516px; }
+  .jevbootstrap .offset7 { margin-left: 454px; }
+  .jevbootstrap .offset6 { margin-left: 392px; }
+  .jevbootstrap .offset5 { margin-left: 330px; }
+  .jevbootstrap .offset4 { margin-left: 268px; }
+  .jevbootstrap .offset3 { margin-left: 206px; }
+  .jevbootstrap .offset2 { margin-left: 144px; }
+  .jevbootstrap .offset1 { margin-left: 82px; }
+  .jevbootstrap .row-fluid { width: 100%; }
+  .jevbootstrap .row-fluid::before, .jevbootstrap .row-fluid::after { display: table; line-height: 0; content: ""; }
+  .jevbootstrap .row-fluid::after { clear: both; }
+  .jevbootstrap .row-fluid [class*="span"] { display: block; float: left; width: 100%; min-height: 30px; margin-left: 2.76243%; box-sizing: border-box; }
+  .jevbootstrap .row-fluid [class*="span"]:first-child { margin-left: 0px; }
+  .jevbootstrap .row-fluid .controls-row [class*="span"] + [class*="span"] { margin-left: 2.76243%; }
+  .jevbootstrap .row-fluid .span12 { width: 100%; }
+  .jevbootstrap .row-fluid .span11 { width: 91.4365%; }
+  .jevbootstrap .row-fluid .span10 { width: 82.8729%; }
+  .jevbootstrap .row-fluid .span9 { width: 74.3094%; }
+  .jevbootstrap .row-fluid .span8 { width: 65.7459%; }
+  .jevbootstrap .row-fluid .span7 { width: 57.1823%; }
+  .jevbootstrap .row-fluid .span6 { width: 48.6188%; }
+  .jevbootstrap .row-fluid .span5 { width: 40.0552%; }
+  .jevbootstrap .row-fluid .span4 { width: 31.4917%; }
+  .jevbootstrap .row-fluid .span3 { width: 22.9282%; }
+  .jevbootstrap .row-fluid .span2 { width: 14.3646%; }
+  .jevbootstrap .row-fluid .span1 { width: 5.80111%; }
+  .jevbootstrap .row-fluid .offset12 { margin-left: 105.525%; }
+  .jevbootstrap .row-fluid .offset12:first-child { margin-left: 102.762%; }
+  .jevbootstrap .row-fluid .offset11 { margin-left: 96.9613%; }
+  .jevbootstrap .row-fluid .offset11:first-child { margin-left: 94.1989%; }
+  .jevbootstrap .row-fluid .offset10 { margin-left: 88.3978%; }
+  .jevbootstrap .row-fluid .offset10:first-child { margin-left: 85.6354%; }
+  .jevbootstrap .row-fluid .offset9 { margin-left: 79.8343%; }
+  .jevbootstrap .row-fluid .offset9:first-child { margin-left: 77.0718%; }
+  .jevbootstrap .row-fluid .offset8 { margin-left: 71.2707%; }
+  .jevbootstrap .row-fluid .offset8:first-child { margin-left: 68.5083%; }
+  .jevbootstrap .row-fluid .offset7 { margin-left: 62.7072%; }
+  .jevbootstrap .row-fluid .offset7:first-child { margin-left: 59.9447%; }
+  .jevbootstrap .row-fluid .offset6 { margin-left: 54.1437%; }
+  .jevbootstrap .row-fluid .offset6:first-child { margin-left: 51.3812%; }
+  .jevbootstrap .row-fluid .offset5 { margin-left: 45.5801%; }
+  .jevbootstrap .row-fluid .offset5:first-child { margin-left: 42.8177%; }
+  .jevbootstrap .row-fluid .offset4 { margin-left: 37.0166%; }
+  .jevbootstrap .row-fluid .offset4:first-child { margin-left: 34.2541%; }
+  .jevbootstrap .row-fluid .offset3 { margin-left: 28.453%; }
+  .jevbootstrap .row-fluid .offset3:first-child { margin-left: 25.6906%; }
+  .jevbootstrap .row-fluid .offset2 { margin-left: 19.8895%; }
+  .jevbootstrap .row-fluid .offset2:first-child { margin-left: 17.1271%; }
+  .jevbootstrap .row-fluid .offset1 { margin-left: 11.326%; }
+  .jevbootstrap .row-fluid .offset1:first-child { margin-left: 8.56354%; }
+  .jevbootstrap input, .jevbootstrap textarea, .jevbootstrap .uneditable-input { margin-left: 0px; }
+  .jevbootstrap .controls-row [class*="span"] + [class*="span"] { margin-left: 20px; }
+  .jevbootstrap input.span12, .jevbootstrap textarea.span12, .jevbootstrap .uneditable-input.span12 { width: 710px; }
+  .jevbootstrap input.span11, .jevbootstrap textarea.span11, .jevbootstrap .uneditable-input.span11 { width: 648px; }
+  .jevbootstrap input.span10, .jevbootstrap textarea.span10, .jevbootstrap .uneditable-input.span10 { width: 586px; }
+  .jevbootstrap input.span9, .jevbootstrap textarea.span9, .jevbootstrap .uneditable-input.span9 { width: 524px; }
+  .jevbootstrap input.span8, .jevbootstrap textarea.span8, .jevbootstrap .uneditable-input.span8 { width: 462px; }
+  .jevbootstrap input.span7, .jevbootstrap textarea.span7, .jevbootstrap .uneditable-input.span7 { width: 400px; }
+  .jevbootstrap input.span6, .jevbootstrap textarea.span6, .jevbootstrap .uneditable-input.span6 { width: 338px; }
+  .jevbootstrap input.span5, .jevbootstrap textarea.span5, .jevbootstrap .uneditable-input.span5 { width: 276px; }
+  .jevbootstrap input.span4, .jevbootstrap textarea.span4, .jevbootstrap .uneditable-input.span4 { width: 214px; }
+  .jevbootstrap input.span3, .jevbootstrap textarea.span3, .jevbootstrap .uneditable-input.span3 { width: 152px; }
+  .jevbootstrap input.span2, .jevbootstrap textarea.span2, .jevbootstrap .uneditable-input.span2 { width: 90px; }
+  .jevbootstrap input.span1, .jevbootstrap textarea.span1, .jevbootstrap .uneditable-input.span1 { width: 28px; }
+}
+@media (max-width: 767px) {
+  .jevbootstrap body { padding-right: 20px; padding-left: 20px; }
+  .jevbootstrap .navbar-fixed-top, .jevbootstrap .navbar-fixed-bottom, .jevbootstrap .navbar-static-top { margin-right: -20px; margin-left: -20px; }
+  .jevbootstrap .container-fluid { padding: 0px; }
+  .jevbootstrap .dl-horizontal dt { float: none; width: auto; clear: none; text-align: left; }
+  .jevbootstrap .dl-horizontal dd { margin-left: 0px; }
+  .jevbootstrap .container { width: auto; }
+  .jevbootstrap .row-fluid { width: 100%; }
+  .jevbootstrap .row, .jevbootstrap .thumbnails { margin-left: 0px; }
+  .jevbootstrap .thumbnails > li { float: none; margin-left: 0px; }
+  .jevbootstrap [class*="span"], .jevbootstrap .uneditable-input[class*="span"], .jevbootstrap .row-fluid [class*="span"] { display: block; float: none; width: 100%; margin-left: 0px; box-sizing: border-box; }
+  .jevbootstrap .span12, .jevbootstrap .row-fluid .span12 { width: 100%; box-sizing: border-box; }
+  .jevbootstrap .row-fluid [class*="offset"]:first-child { margin-left: 0px; }
+  .jevbootstrap .input-large, .jevbootstrap .input-xlarge, .jevbootstrap .input-xxlarge, .jevbootstrap input[class*="span"], .jevbootstrap select[class*="span"], .jevbootstrap textarea[class*="span"], .jevbootstrap .uneditable-input { display: block; width: 100%; min-height: 30px; box-sizing: border-box; }
+  .jevbootstrap .input-prepend input, .jevbootstrap .input-append input, .jevbootstrap .input-prepend input[class*="span"], .jevbootstrap .input-append input[class*="span"] { display: inline-block; width: auto; }
+  .jevbootstrap .controls-row [class*="span"] + [class*="span"] { margin-left: 0px; }
+}
+@media (max-width: 480px) {
+  .jevbootstrap .nav-collapse { transform: translate3d(0px, 0px, 0px); }
+  .jevbootstrap .page-header h1 small { display: block; line-height: 20px; }
+  .jevbootstrap input[type="checkbox"], .jevbootstrap input[type="radio"] { border: 1px solid rgb(204, 204, 204); }
+  .jevbootstrap .form-horizontal .control-label { float: none; width: auto; padding-top: 0px; text-align: left; }
+  .jevbootstrap .form-horizontal .controls { margin-left: 0px; }
+  .jevbootstrap .form-horizontal .control-list { padding-top: 0px; }
+  .jevbootstrap .form-horizontal .form-actions { padding-right: 10px; padding-left: 10px; }
+  .jevbootstrap .media .pull-left, .jevbootstrap .media .pull-right { display: block; float: none; margin-bottom: 10px; }
+  .jevbootstrap .media-object { margin-right: 0px; margin-left: 0px; }
+  .jevbootstrap .modal-header .close { padding: 10px; margin: -10px; }
+  .jevbootstrap .carousel-caption { position: static; }
+}
+@media (max-width: 979px) {
+  .jevbootstrap body { padding-top: 0px; }
+  .jevbootstrap .navbar-fixed-top, .jevbootstrap .navbar-fixed-bottom { position: static; }
+  .jevbootstrap .navbar-fixed-top { margin-bottom: 20px; }
+  .jevbootstrap .navbar-fixed-bottom { margin-top: 20px; }
+  .jevbootstrap .navbar-fixed-top .navbar-inner, .jevbootstrap .navbar-fixed-bottom .navbar-inner { padding: 5px; }
+  .jevbootstrap .navbar .container { width: auto; padding: 0px; }
+  .jevbootstrap .navbar .brand { padding-right: 10px; padding-left: 10px; margin: 0px 0px 0px -5px; }
+  .jevbootstrap .nav-collapse { clear: both; }
+  .jevbootstrap .nav-collapse .nav { float: none; margin: 0px 0px 10px; }
+  .jevbootstrap .nav-collapse .nav > li { float: none; }
+  .jevbootstrap .nav-collapse .nav > li > a { margin-bottom: 2px; }
+  .jevbootstrap .nav-collapse .nav > .divider-vertical { display: none; }
+  .jevbootstrap .nav-collapse .nav .nav-header { color: rgb(119, 119, 119); text-shadow: none; }
+  .jevbootstrap .nav-collapse .nav > li > a, .jevbootstrap .nav-collapse .dropdown-menu a { padding: 9px 15px; font-weight: bold; color: rgb(119, 119, 119); border-radius: 3px; }
+  .jevbootstrap .nav-collapse .btn { padding: 4px 10px; font-weight: normal; border-radius: 4px; }
+  .jevbootstrap .nav-collapse .dropdown-menu li + li a { margin-bottom: 2px; }
+  .jevbootstrap .nav-collapse .nav > li > a:hover, .jevbootstrap .nav-collapse .nav > li > a:focus, .jevbootstrap .nav-collapse .dropdown-menu a:hover, .jevbootstrap .nav-collapse .dropdown-menu a:focus { background-color: rgb(242, 242, 242); }
+  .jevbootstrap .navbar-inverse .nav-collapse .nav > li > a, .jevbootstrap .navbar-inverse .nav-collapse .dropdown-menu a { color: rgb(153, 153, 153); }
+  .jevbootstrap .navbar-inverse .nav-collapse .nav > li > a:hover, .jevbootstrap .navbar-inverse .nav-collapse .nav > li > a:focus, .jevbootstrap .navbar-inverse .nav-collapse .dropdown-menu a:hover, .jevbootstrap .navbar-inverse .nav-collapse .dropdown-menu a:focus { background-color: rgb(17, 17, 17); }
+  .jevbootstrap .nav-collapse.in .btn-group { padding: 0px; margin-top: 5px; }
+  .jevbootstrap .nav-collapse .dropdown-menu { position: static; top: auto; left: auto; display: none; float: none; max-width: none; padding: 0px; margin: 0px 15px; background-color: transparent; border: medium none; border-radius: 0px; box-shadow: none; }
+  .jevbootstrap .nav-collapse .open > .dropdown-menu { display: block; }
+  .jevbootstrap .nav-collapse .dropdown-menu::before, .jevbootstrap .nav-collapse .dropdown-menu::after { display: none; }
+  .jevbootstrap .nav-collapse .dropdown-menu .divider { display: none; }
+  .jevbootstrap .nav-collapse .nav > li > .dropdown-menu::before, .jevbootstrap .nav-collapse .nav > li > .dropdown-menu::after { display: none; }
+  .jevbootstrap .nav-collapse .navbar-form, .jevbootstrap .nav-collapse .navbar-search { float: none; padding: 10px 15px; margin: 10px 0px; border-top: 1px solid rgb(242, 242, 242); border-bottom: 1px solid rgb(242, 242, 242); box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 0px rgba(255, 255, 255, 0.1); }
+  .jevbootstrap .navbar-inverse .nav-collapse .navbar-form, .jevbootstrap .navbar-inverse .nav-collapse .navbar-search { border-top-color: rgb(17, 17, 17); border-bottom-color: rgb(17, 17, 17); }
+  .jevbootstrap .navbar .nav-collapse .nav.pull-right { float: none; margin-left: 0px; }
+  .jevbootstrap .nav-collapse, .jevbootstrap .nav-collapse.collapse { height: 0px; overflow: hidden; }
+  .jevbootstrap .navbar .btn-navbar { display: block; }
+  .jevbootstrap .navbar-static .navbar-inner { padding-right: 10px; padding-left: 10px; }
+}
+@media (min-width: 980px) {
+  .jevbootstrap .nav-collapse.collapse { height: auto !important; overflow: visible !important; }
+}

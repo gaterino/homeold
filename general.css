@@ -1,0 +1,28 @@
+/* Code tidied up by ScrapBook */
+.invalid { border-color: rgb(255, 0, 0); }
+label.invalid { color: rgb(255, 0, 0); }
+#editor-xtd-buttons { padding: 5px; }
+.button2-left, .button2-right, .button2-left div, .button2-right div { float: left; }
+.button2-left a, .button2-right a, .button2-left span, .button2-right span { display: block; height: 22px; float: left; line-height: 22px; font-size: 11px; color: rgb(102, 102, 102); cursor: pointer; }
+.button2-left span, .button2-right span { cursor: default; color: rgb(153, 153, 153); }
+.button2-left .page a, .button2-right .page a, .button2-left .page span, .button2-right .page span { padding: 0px 6px; }
+.page span { color: rgb(0, 0, 0); font-weight: bold; }
+.button2-left a:hover, .button2-right a:hover { text-decoration: none; color: rgb(11, 85, 196); }
+.button2-left a, .button2-left span { padding: 0px 24px 0px 6px; }
+.button2-right a, .button2-right span { padding: 0px 6px 0px 24px; }
+.button2-left { background: rgba(0, 0, 0, 0) url("j_button2_left.png") no-repeat scroll 0% 0%; float: left; margin-left: 5px; }
+.button2-right { background: rgba(0, 0, 0, 0) url("j_button2_right.png") no-repeat scroll 100% 0px; float: left; margin-left: 5px; }
+.button2-left .image { background: rgba(0, 0, 0, 0) url("j_button2_image.png") no-repeat scroll 100% 0px; }
+.button2-left .readmore, .button2-left .article { background: rgba(0, 0, 0, 0) url("j_button2_readmore.png") no-repeat scroll 100% 0px; }
+.button2-left .pagebreak { background: rgba(0, 0, 0, 0) url("j_button2_pagebreak.png") no-repeat scroll 100% 0px; }
+.button2-left .blank { background: rgba(0, 0, 0, 0) url("j_button2_blank.png") no-repeat scroll 100% 0px; }
+div.tooltip { float: left; background: rgb(255, 255, 204) none repeat scroll 0% 0%; border: 1px solid rgb(212, 213, 170); padding: 5px; max-width: 200px; z-index: 13000; }
+div.tooltip h4 { padding: 15px 0px 5px; margin: -15px 0px 0px; font-size: 95%; font-weight: bold; background: rgba(0, 0, 0, 0) url("selector-arrow.png") no-repeat scroll 0% 0%; }
+div.tooltip p { font-size: 90%; margin: 0px; }
+.img_caption .left { float: left; margin-right: 1em; }
+.img_caption .right { float: right; margin-left: 1em; }
+.img_caption .left p { clear: left; text-align: center; }
+.img_caption .right p { clear: right; text-align: center; }
+.img_caption { text-align: center !important; }
+.img_caption.none { margin-left: auto; margin-right: auto; }
+a img.calendar { width: 16px; height: 16px; margin-left: 3px; background: rgba(0, 0, 0, 0) url("calendar.png") no-repeat scroll 0% 0%; cursor: pointer; vertical-align: middle; }
