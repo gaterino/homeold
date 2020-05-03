@@ -1,0 +1,10 @@
+/* Code tidied up by ScrapBook */
+@import url("system.css");
+.system-unpublished, tr.system-unpublished { background: rgb(232, 237, 241) none repeat scroll 0% 0%; border-top: 4px solid rgb(196, 211, 223); border-bottom: 4px solid rgb(196, 211, 223); }
+span.highlight { background-color: rgb(255, 255, 204); font-weight: bold; padding: 1px 0px; }
+.img-fulltext-float-right { float: right; margin-left: 10px; margin-bottom: 10px; }
+.img-fulltext-float-left { float: left; margin-right: 10px; margin-bottom: 10px; }
+.img-fulltext-float-none {  }
+.img-intro-float-right { float: right; margin-left: 5px; margin-bottom: 5px; }
+.img-intro-float-left { float: left; margin-right: 5px; margin-bottom: 5px; }
+.img-intro-float-none {  }

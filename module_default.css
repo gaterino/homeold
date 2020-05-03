@@ -1,0 +1,29 @@
+/* Code tidied up by ScrapBook */
+.acymailing_form .grecaptcha-badge { display: none; }
+div.acymailing_module, .acymailing_module div { padding: 0px !important; margin: 0px !important; border-style: none !important; }
+table.acymailing_form { margin: auto; border: 0px none !important; }
+a.acymailing_togglemodule { display: block; font-size: 16px; }
+.acymailing_mootoolsbutton p { text-align: center; }
+.acysubbuttons { text-align: center; }
+img.captchaimagemodule { border: 1px solid rgb(221, 221, 221); float: left; }
+.captchakeymodule .captchafield { margin-top: 3px; margin-left: 2px; }
+.acymailing_fulldiv tr, .acymailing_fulldiv td { border: 0px none; }
+.acymailing_module_form td { padding-bottom: 5px; vertical-align: top; }
+div.acymailing_module_error { color: rgb(68, 0, 0); background-color: rgb(255, 221, 221); padding: 1em !important; margin-bottom: 10px; }
+div.acymailing_module_success { color: rgb(17, 51, 0); background-color: rgb(221, 255, 204); padding: 1em !important; z-index: 10; margin-bottom: 10px; }
+.acymailing_module_form .acymailing_introtext { padding-bottom: 10px; display: block; }
+.refreshCaptchaModule { background-image: url("refresh.png"); width: 16px; height: 16px; display: block; float: left; cursor: pointer; }
+.acymailing_module fieldset { border: 1px solid rgb(204, 204, 204); padding: 5px; }
+.category_warning { color: red; }
+.hide { display: none; }
+.slide_open { animation: 0.5s ease 0s normal forwards 1 running deployslide; overflow: hidden; }
+@keyframes deployslide {
+0% { max-height: 0px; }
+100% { max-height: 800px; }
+}
+@keyframes retractslide {
+0% { max-height: 800px; }
+100% { max-height: 0px; display: none; }
+}
+.slide_close { animation: 0.5s ease 0s normal forwards 1 running retractslide; overflow: hidden; background-color: rgb(255, 255, 255); box-shadow: 0px 1px 5px rgb(238, 238, 238); padding: 5px; margin-bottom: 20px; }
+.slide_open { animation: 0.5s ease 0s normal forwards 1 running deployslide; overflow: hidden; background-color: rgb(255, 255, 255); box-shadow: 0px 1px 5px rgb(238, 238, 238); padding: 5px; margin-bottom: 20px; }

@@ -1,0 +1,11 @@
+/* Code tidied up by ScrapBook */
+#system-message { margin-bottom: 10px; padding: 0px; }
+#system-message > dt { font-weight: bold; display: none; }
+#system-message > dd { margin: 0px; font-weight: bold; text-indent: 30px; }
+#system-message > dd > ul { color: rgb(0, 85, 187); background-position: 4px top; background-repeat: no-repeat; margin-bottom: 10px; list-style: outside none none; padding: 10px; border-top: 3px solid rgb(132, 167, 219); border-bottom: 3px solid rgb(132, 167, 219); }
+#system-message > dd > ul > li { line-height: 1.5em; }
+#system-message > .message > ul { background-color: rgb(195, 210, 229); background-image: url("notice-info.png"); }
+#system-message > .error > ul, #system-message > .warning > ul, #system-message > .notice > ul { color: rgb(204, 0, 0); }
+#system-message > .error > ul { background-color: rgb(230, 192, 192); background-image: url("notice-alert.png"); border-color: rgb(222, 122, 123); }
+#system-message > .warning > ul { background-color: rgb(230, 200, 166); background-image: url("notice-note.png"); border-color: rgb(255, 187, 0); }
+#system-message > .notice > ul { background-color: rgb(239, 231, 184); background-image: url("notice-note.png"); border-color: rgb(240, 220, 126); }
